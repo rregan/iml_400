@@ -1,0 +1,58 @@
+/*global*/
+
+header nav main article aside footer
+	{
+	display: block;
+	}
+		
+	body	{
+		background-color:#cccccc;
+		background-image:url("../images/background.jpg");
+		background-attachment:fixed;
+		background-size:cover;
+		font-family: 'Amatic SC', cursive;
+		}
+		
+		
+/*text element styling*/
+
+a:link
+     	{
+     	text-decoration:none;
+     	color: #FFD6C6;
+     	}
+
+a:visited
+		{
+		color:#D0D6C6;
+		}
+		
+a:hover
+		{
+		color:#C3BEC6;
+		}
+
+
+/*font styling*/
+
+		h1	{
+		font-size: 3em;
+		color:#074F5A;
+		margin: .25em 0em;	
+		float: center;
+		}
+		
+		h2
+		{
+		font-size:2em;
+		color:#D1DAB0;
+		margin:.5em 0em;
+		float: center;
+		}
+		
+		ul.links	{
+		font-size:2em;
+		margin:.5em 0em;
+		float: center;
+		
+		}

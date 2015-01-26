@@ -1,0 +1,151 @@
+/*global*/
+
+header nav main article aside footer
+	{
+	display: block;
+	}
+		
+	body	{
+		background-image:url("../images/koreaimages/backgroundImages/koreatownMap.jpg");
+		background-attachment:fixed;
+		background-size:cover;
+		font-family: 'Oswald', sans-serif; font-weight:300;
+		}
+		
+	
+/*text elements*/
+
+
+/* text element styling */
+
+	h1	{
+		font-size: 2em;
+		color:#69a5b9;
+		border-bottom: 2px #cccccc solid;
+		margin: .25em 0em;	
+		}
+		
+	h2
+		{
+		font-size:1.5em;
+		color:#69a5b9;
+		margin:.5em 0em;
+		}
+	
+	h3
+		{
+		font-size:1.25em;
+		color:#4b4d4e;
+		margin:.25em 0em;
+		}
+		
+	.date
+		{
+		font-size:1em;
+		color:#69a5b9;
+		margin-top:.5em;
+		}
+	
+
+/* text styling */
+
+	a:link	{
+			text-decoration:none;
+			color:#4b4d4e;
+		}
+	
+	a:visited	{
+			color:#4b4d4e;
+		}
+	
+	a:hover		{
+			color:#69a5b9;
+		}
+
+
+/*containers*/
+
+	header {
+			padding-top:30px;
+			}
+
+	header ul
+			{
+			float:right;
+			list-style-type:none;
+			padding-top:80px;
+			}
+			
+	header ul li
+			{
+			display:inline;
+			}
+			
+	nav ul
+			{
+			border-top:2px #cccccc solid;
+			font-size:1.4em;
+			padding-top:1em;
+			clear:both;
+			}	
+			
+	nav ul li
+			{
+			display:inline;
+			padding-right:40px;
+			}
+
+	.twoColumnLayout
+			{
+			width:650px;
+			float:left;
+			}
+			
+	.rightSidebar
+			{
+			width:200px;
+			float:right;
+			padding-bottom:.75em;
+			}
+
+	#borderWrapper	{
+			width: 960px;
+			margin: 2em auto;
+			background-color: #ffffff;
+			}
+
+
+	#wrapper	{
+		width:900px;
+		margin:0px auto;
+		background-color:#ffffff;
+		box-shadow: 5px -5px 5px #888888;
+		}
+		
+	footer	{
+		clear:both;
+		border-top:2px #cccccc solid;
+		text-align:center;
+		padding:.25em 0em;
+		}
+
+
+/*images*/	
+
+
+/* image elements */
+	.imgBorder	{
+		border: 1px #cccccc solid;
+		margin: 10px;
+		padding: 10px;
+		}
+
+
+
+/* reset */
+
+	*
+		{
+		margin:0;
+		padding:0;
+		}

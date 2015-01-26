@@ -1,0 +1,31 @@
+header main article aside footer
+	{
+	display: block;
+	}
+
+
+body {
+	background-color: #046380;
+	font-size: 1em;
+	width: 900px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+
+
+h1 {
+	color: #A7A37E;
+	}
+
+
+.response {
+	color: #EFECCA;
+	}
+
+
+.page-wrapper{
+	background-color: #002F2F;
+	padding: 20px;
+	margin-top: 20px;
+}
+
